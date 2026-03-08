@@ -1,0 +1,7 @@
+# Just not ready yet :(
+firmware/
+
+# Ziper for JLCPCB, Reviews, etc.
+*.rar
+*.zip
+*.7z
