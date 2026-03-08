@@ -211,16 +211,42 @@ More detail is in:
 
 The physical design uses a printed upper and lower structure with an acrylic middle body, mounting points, and space for cables, sensors, pumps, and boards.
 
-The repository assets include renders and board images that should be used directly in the final project repository README, such as:
+### Structure 3D
 
-- `assets/front.png`
-- `assets/side.png`
-- `assets/top.png`
-- `assets/bay.png`
-- `assets/whale_front.png`
-- `assets/whale_back.png`
-- `assets/pcb.png`
-- `assets/sch.png`
+<p align="center">
+  <img src="assets/front.png" alt="Front view" width="30%">
+  <img src="assets/side.png" alt="Side view" width="30%">
+  <img src="assets/top.png" alt="Top view" width="30%">
+</p>
+
+### Electrical bay
+
+<p align="center">
+  <img src="assets/bay.png" alt="Electrical bay" width="60%">
+</p>
+
+---
+
+## PCB
+
+### Schematic
+
+<p align="center">
+  <img src="assets/sch.png" alt="WhaleShark schematic" width="90%">
+</p>
+
+### Layout
+
+<p align="center">
+  <img src="assets/pcb.png" alt="PCB layout" width="45%">
+</p>
+
+### Board 3D renders
+
+<p align="center">
+  <img src="assets/whale_front.png" alt="PCB 3D front" width="40%">
+  <img src="assets/whale_back.png" alt="PCB 3D back" width="40%">
+</p>
 
 ---
 
