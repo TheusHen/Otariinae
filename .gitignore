@@ -5,3 +5,7 @@
 *.rar
 *.zip
 *.7z
+
+build/
+builds/
+**/.pio/

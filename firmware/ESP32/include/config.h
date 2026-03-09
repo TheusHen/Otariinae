@@ -16,11 +16,11 @@ namespace Config {
 
   static constexpr uint8_t FLUX_I2C_ADDR = 0x12;
 
-  static constexpr unsigned long WIFI_RETRY_MS = 15'000;
-  static constexpr unsigned long SENSOR_PERIOD_MS = 2'000;
-  static constexpr unsigned long STATUS_PUSH_MS = 2'000;
+  static constexpr unsigned long WIFI_RETRY_MS = 15000;
+  static constexpr unsigned long SENSOR_PERIOD_MS = 2000;
+  static constexpr unsigned long STATUS_PUSH_MS = 2000;
   static constexpr unsigned long TIME_SYNC_MS = 15 * 60 * 1000UL;
-  static constexpr unsigned long AUTOMATION_TICK_MS = 1'000;
+  static constexpr unsigned long AUTOMATION_TICK_MS = 1000;
 
   static constexpr bool ENABLE_WATER_TEMP = true;
   static constexpr bool ENABLE_PH = true;
