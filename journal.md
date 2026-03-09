@@ -334,3 +334,26 @@ Updated PCB:
 3D:
 ![image](/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTE3MTMxLCJwdXIiOiJibG9iX2lkIn19 --2dc144b5080fb35b232ab92160dc278d98f7750f/image.png)
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTE3MTMzLCJwdXIiOiJibG9iX2lkIn19--71b08f6cf5eedfd33043de8f395009f72d26e756/image.png)
+  
+
+# 3/9/2026 - Organized project, finalized the BOM, and created firmware  
+
+_Time spent: 17.4h_  
+
+I organized the project a bit more and published it on GitHub. I also managed to finish the entire firmware, although I still need to calibrate a few things and solve some issues that will only be possible once I have the real hardware. While doing that, I also created a diagram of the external electrical part to make things easier to understand:
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTE4NTM0LCJwdXIiOiJibG9iX2lkIn19--2246fb8e0abc7a34bb7a8c6931288c122564c529/image.png)
+
+The lack of a web interface or dashboard is intentional for now in V1. I consider the project, version 1.0.0, to be finished in Beta-ready. At this point, what I really need is the real hardware to continue. I also completed the full BOM and organized it into three separate CSV files with all the prices.
+
+Regarding the size, as I mentioned before, I want to print the 3D parts myself. This gives me some flexibility to make adjustments. The current 3D design is already solid, but printing it myself will allow me to add expansion modules and ports for things like the aquaponics system. About the aquaponics part: I’ll personally cover the pump and the 3D printing for that module. Hopefully I can get the 3D printer through Blueprint itself. The pump is relatively inexpensive, and as mentioned before, it’s an expansion module. I included it on the PCB because it’s one of the project’s main differentiators.
+
+Right now, the “correct” way to interact with SeaLion using the endpoints is through Postman, which I strongly recommend.
+
+The height of the aquarium is determined by the acrylic panel that goes between the two 3D-printed parts. Unfortunately, acrylic tends to be expensive, so I’ll try to source it myself, even if that means using a smaller height or possibly another material as a substitute.
+
+Repo:
+https://github.com/TheusHen/Otariinae
+
+Tag with binaries(Firmware):
+https://github.com/TheusHen/Otariinae/releases/tag/v1.0.0  
+
